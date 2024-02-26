@@ -1,0 +1,62 @@
+.controls button {
+    background: linear-gradient(90deg, #090d33, #2a0135);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.controls button:hover {
+    background: linear-gradient(90deg, #1505f5, #660099);
+}
+
+.controls button:active {
+    background: linear-gradient(90deg, #1505f5, #660099);
+    transform: translateY(2px);
+}
+
+.controls input {
+    background: linear-gradient(90deg, #1505f5, #800080);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 11px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.controls input:hover {
+    background: linear-gradient(90deg, #1505f5, #660099);
+}
+
+.controls input:active {
+    background: linear-gradient(90deg, #1505f5, #660099);
+    transform: translateY(2px);
+}
+.controls button {
+    float:inline-start;
+}
+.controls {
+    background:linear-gradient(90deg, #c6c4eb, #e6bdfa);
+    height: 100%;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+}
+canvas
+{
+    border-radius: 5px;
+    border:2px solid #e6bdfa;
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+}
+/* .controls button::before {
+    content: url('https://icons8.ru/icon/4669/кисть');
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.25em;
+} */
